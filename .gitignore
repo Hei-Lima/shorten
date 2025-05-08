@@ -1,0 +1,85 @@
+# Node.js specific files and folders
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Logs
+logs/
+*.log
+*.tlog
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+*.bak
+*.old
+*.orig
+*.rej
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+*.sublime-package
+*.sublime-snippet
+*.sublime-completions
+*.sublime-keymap
+*.sublime-macro
+*.sublime-menu
+*.sublime-theme
+*.sublime-color-scheme
+*.sublime-syntax
+*.sublime-build
+*.sublime-project
+*.sublime-workspace
+*.sublime-settings
+*.sublime-package
+*.sublime-snippet
+*.sublime-completions
+*.sublime-keymap
+*.sublime-macro
+*.sublime-menu
+*.sublime-theme
+*.sublime-color-scheme
+*.sublime-syntax
+*.sublime-build

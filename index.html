@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hei-Lima Shorten</title>
+    <link href="./css/output.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Generate temporary shortened links</h1>
+    <!-- I could use some env for this, but this will do fine :) -->
+    <form id="form">
+        <div>
+          <label for="url">URL to shorten:</label>
+          <input name="url" id="url" placeholder="http://example.com"/>
+        </div>
+        <div>
+            <label for="expirationDate"></label>
+            <div class="w-full max-w-xs">
+                <input id="expirationDate" type="range" min="0" max="100" value="25" class="range" step="25" />
+                <div class="flex justify-between px-2.5 mt-2 text-xs">
+                  <span>|</span>
+                  <span>|</span>
+                  <span>|</span>
+                  <span>|</span>
+                  <span>|</span>
+                </div>
+                <div class="flex justify-between px-2.5 mt-2 text-xs">
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>4</span>
+                  <span>5</span>
+                </div>
+              </div>
+        </div>
+        <div>
+          <button type="submit">Shorten</button>
+        </div>
+      </form>
+<script src="./js/app.js"></script>
+</body>
+</html>

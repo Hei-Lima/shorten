@@ -1,0 +1,13 @@
+{
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+          "file": "./.vscode/daisyui.md"
+        }
+    ]
+}
