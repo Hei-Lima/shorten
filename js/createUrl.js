@@ -3,9 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const url = document.getElementById("url");
     const expiration = document.getElementById("expirationDate");
 
-
-    function showUrl() {
-        
+    function redirectTo(url) {
+        window.location.href = `details.html?shortUrl=${url}`;
     }
 
     form.addEventListener('submit', event => {
@@ -25,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             body: JSON.stringify(fetchObject)
         }).then(response => response.json())
-        .then(data => showUrl(data))
+        .then(data => redirectTo(data.shortUrl))
         .catch(error => alert(`Erro: ${error.message}`))                
     }
     )
